@@ -1,3 +1,5 @@
+"use client"
+
 import Link from 'next/link'
 import React from 'react'
 
@@ -45,7 +47,7 @@ const Navbar = () => {
                     </Link>
                 ))}
                 <button
-                    className='text-white bg-green-500 p-2 border-none cursor-pointer rounded-md'
+                    className='text-white bg-green-500 p-1 border-none cursor-pointer rounded-md'
                 >
                     Logout
                 </button>
